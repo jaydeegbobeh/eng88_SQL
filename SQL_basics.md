@@ -127,43 +127,16 @@ From zsh shell
 
 docker exec -it mysql_dbms mysql -u root -p 
 SHOW DATABASES;
-+--------------------+
-| Database           |
-+--------------------+
-| information_schema |
-| mysql              |
-| password_db        |
-| performance_schema |
-| sys                |
-| users              |
-+--------------------+
+- Shows all of your databases 
 
 USE password_db
 SHOW TABLES;
-+-----------------------+
-| Tables_in_password_db |
-+-----------------------+
-| user_table            |
-+-----------------------+
-
+- Show all the tables in the password_db database
 DESCRIBE user_table;
-+------------+-------------+------+-----+---------+----------------+
-| Field      | Type        | Null | Key | Default | Extra          |
-+------------+-------------+------+-----+---------+----------------+
-| user_id    | int         | NO   | PRI | NULL    | auto_increment |
-| first_name | varchar(30) | NO   |     | NULL    |                |
-| last_name  | varchar(30) | NO   |     | NULL    |                |
-| birthdate  | date        | NO   |     | NULL    |                |
-+------------+-------------+------+-----+---------+----------------+
+- Shows the columns in table, with their type (VAR, INT, TEXT etc)
 
 SELECT * FROM user_table;
-+---------+------------+-----------+------------+
-| user_id | first_name | last_name | birthdate  |
-+---------+------------+-----------+------------+
-|       1 | Adam       | Smith     | 2021-06-08 |
-|       3 | John       | Adams     | 2014-06-09 |
-|       4 | Adam       | Smith     | 2002-09-23 |
-+---------+------------+-----------+------------+
+- Shows rows and columns in table
 
 
 ## Updating database with Python 
