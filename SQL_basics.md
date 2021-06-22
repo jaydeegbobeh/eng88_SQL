@@ -142,6 +142,7 @@ SELECT * FROM user_table;
 ## Updating database with Python 
 e.g
 ```
+python
 from mysql.connector import connect, Error
 
 user_fname = input("Please enter your first name:\n")
