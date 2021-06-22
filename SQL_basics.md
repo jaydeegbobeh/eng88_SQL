@@ -106,22 +106,22 @@ TCL
 
 Possible interview question: "What is SQL and what are the different types of SQL?"
 
-## SQL commnands
+## SQL commands
 
-CREATE DATABASE password_db
-SELECT * FROM `user_table`:
-INSERT INTO `user_table` (`user_id`, `first_name`, `last_name`, `birthdate`) VALUES (NULL, 'user1', 'user1 lastname', '2021-06-08');
-INSERT INTO `user_table` (`user_id`, `first_name`, `last_name`, `birthdate`) VALUES (NULL, 'user2', 'user2 lastname', '2014-06-09');
-SELECT * FROM `user_table` WHERE `user_id` =1
-INSERT INTO `user_table` (`user_id`, `first_name`, `last_name`, `birthdate`) VALUES (NULL, 'user3', 'user3 lastname', '2002-09-23');
-INSERT INTO `user_table` (`user_id`, `first_name`, `last_name`, `birthdate`) VALUES (NULL, 'user2', 'user2 lastname', '2002-09-23');
-SELECT * FROM `user_table` WHERE `first_name` = 'user2' AND `user_id` = 3
-SELECT * FROM `user_table` WHERE `first_name` = 'user2' OR `user_id` = 3
-UPDATE `user_table` SET `first_name`='Mike' WHERE `user_id` =1
-UPDATE `user_table` SET `last_name`='Smith' WHERE `user_id` =1
-UPDATE `user_table` SET `first_name`='John', `last_name` = 'Adams' WHERE `user_id` =3
-UPDATE `user_table` SET `first_name` = 'Mike', `last_name` = 'Smith' WHERE `user_id` =4
-UPDATE `user_table` SET `first_name`='Adam' WHERE `first_name`='Mike'
+- CREATE DATABASE password_db
+- SELECT * FROM `user_table`:
+- INSERT INTO `user_table` (`user_id`, `first_name`, `last_name`, `birthdate`) VALUES (NULL, 'user1', 'user1 lastname', '2021-06-08');
+- INSERT INTO `user_table` (`user_id`, `first_name`, `last_name`, `birthdate`) VALUES (NULL, 'user2', 'user2 lastname', '2014-06-09');
+- SELECT * FROM `user_table` WHERE `user_id` =1
+- INSERT INTO `user_table` (`user_id`, `first_name`, `last_name`, `birthdate`) VALUES (NULL, 'user3', 'user3 lastname', '2002-09-23');
+- INSERT INTO `user_table` (`user_id`, `first_name`, `last_name`, `birthdate`) VALUES (NULL, 'user2', 'user2 lastname', '2002-09-23');
+- SELECT * FROM `user_table` WHERE `first_name` = 'user2' AND `user_id` = 3
+- SELECT * FROM `user_table` WHERE `first_name` = 'user2' OR `user_id` = 3
+- UPDATE `user_table` SET `first_name`='Mike' WHERE `user_id` =1
+- UPDATE `user_table` SET `last_name`='Smith' WHERE `user_id` =1
+- UPDATE `user_table` SET `first_name`='John', `last_name` = 'Adams' WHERE `user_id` =3
+- UPDATE `user_table` SET `first_name` = 'Mike', `last_name` = 'Smith' WHERE `user_id` =4
+- UPDATE `user_table` SET `first_name`='Adam' WHERE `first_name`='Mike'
 
 From zsh shell
 
